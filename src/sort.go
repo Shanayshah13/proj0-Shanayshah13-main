@@ -44,7 +44,7 @@ func main() {
     fmt.Println(recordStream)
 
 	// writing into file 
-	writePath := os.Args[2]						// second argument is for outputfile
+	writePath := os.Args[2]						// second argument is for output file
 	writeFile, err := os.Create(writePath)
 	if err != nil {
 		log.Println("Error opening writefile: ", err)
